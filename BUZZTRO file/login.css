@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:arial;
+    border: border-box;
+}
+
+header {
+    border-width: 0.1px;
+    border-bottom: solid;
+    border-color: #bebaba;
+}
+.navbar {
+    height: 65px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+/* Box 1 for Logo design*/
+
+.nav-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height:45px;
+    width: 150px;
+}
+
+/* Box 2 for search bar  */
+
+.nav-search {
+    display: flex;
+    background-color: aqua;
+    width: 370px;
+    height: 45px;
+    margin-left:580px;
+    justify-content: space-evenly;
+    border-radius: 4px; 
+    border: none; 
+}
+
+ .nav-input {
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+    width: 100%;
+    font-size:1rem;
+    padding-left: 16px;
+    padding-right:4px;
+
+ }
+
+ .search-icon {
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(253, 184, 1);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:white;
+ }
+ /* Box 3: login and sign up */
+ .nav-login i{
+    font-size:15px;
+    color: rgb(253, 184, 1);
+    margin-left: 80px;
+    margin-top: 10px;
+    padding-right: 15px;
+ }
+
+ .nav-sign i{
+    font-size:15px;
+    color: rgb(253, 184, 1);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-right: 15px;
+ }
+
+ .nav-login a{
+    font-size:15px;
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+ }
+
+ .nav-sign a{
+    font-size:15px;
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+ }
+/* Main part */
+main {
+    display: flex;
+}
+  .pic {
+    width: 500px;
+  }
+
+  .picture {
+    width: 500px;
+  }
+.stat-1 {
+    height: 50px;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 620px;
+    color:#383636;
+    font-size: 30px;
+    display: flex;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+}
+#in {
+    padding-left: 10px;
+}
+.stat-2 {
+  height: 60px;
+  width: 650px; 
+  font-size: 18px;
+  color: rgb(85 85 85);
+  font-weight: 400;
+  text-align: center;
+  margin-left: 250px;
+  display: flex;
+} 
+.tel {
+    display: flex;
+    background-color: aqua;
+    width: 480px;
+    height: 60px;
+    margin-left:450px;
+    justify-content: space-evenly;
+    border-radius: 8px; 
+    border: none; 
+}
+
+.tele {
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    font-size:1rem;
+    padding-left: 16px;
+    padding-right:4px;
+
+}
+
+ .tele-icon {
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(253, 184, 1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color:white;
+    border: none;
+ }
+
+ .btn1 button{
+    width: 400px;
+    height: 60px;
+    margin-left: 500px;
+    margin-top:30px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(253, 184, 1) ;
+    color: #fff;
+    cursor: pointer;
+  }
+  #l {
+    margin-left: 170px;
+    margin-top: 10px;
+  }
+.rand {
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.btn2 {
+    display: flex;
+    margin-left: 450px;
+    margin-top:30px;
+}
+
+.btn2 button{
+    width: 500px;
+    height: 65px;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-width: 0.5rem;
+    border: solid;
+    border-color: rgb(194, 191, 191);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  button {
+    display: flex;
+  }
+  .btn2 button img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .btn2 button p{
+    width: 130px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+  }
+
+  button i{
+    margin-left: 20px;
+    font-size: 40px;
+  }
+  #e {
+    margin-left: 20px;
+  }
+ 
+  .for-signup {
+  margin-left: 550px;
+  margin-top: 30px;
+  display: flex;
+  height: 60px;
+  width: 650px; 
+  font-size: 18px;
+  color: rgb(85 85 85);
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  }
+  .for-signup p{
+    color:rgb(124, 121, 121);
+  }
+  .for-signup a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black
+  }
+  #last-msg { 
+  margin-left: 490px;
+  margin-top: 20px;
+  height: 60px;
+  width: 650px; 
+  font-size: 18px;
+  color: rgb(85 85 85);
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  }
